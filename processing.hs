@@ -1,5 +1,6 @@
 {-
 random regel ausgabe
+hi
 -}
 
 regeln :: [ String ]
