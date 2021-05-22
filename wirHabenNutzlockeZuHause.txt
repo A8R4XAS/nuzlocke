@@ -9,15 +9,15 @@ Algemein:
 
 Regelpool
 
-- Pro Firsttypus nur ein Pokemon im Team
-- Permadeath (ach nach beenden der Route)
-- Nur das erste Pokemon das gesehen wird ist fangbar
-- keine flucht vor Wilden pokemon
-- Route darf nur zufuß verlassen werden
-- keine Itams verwenden
-- nächstzer Arenakampf ohne Gehaltene Items
+- Pro Firsttypus nur ein Pokemon im Teamd                                           x
+- Permadeath (ach nach beenden der Route)                                           x
+- Nur das erste Pokemon das gesehen wird ist fangbar                                x
+- keine flucht vor Wilden pokemon                                                   x
+- Route darf nur zufuß verlassen werden                                             x
+- keine Itams verwenden                                                             x
+- nächstzer Arenakampf ohne Gehaltene Items                                         x
 - keine Z-atacken oder Mega beim Arenakampf
-- Theam-Teams 
+- Theam-Teams                                                                       x
 
 
 Challence
