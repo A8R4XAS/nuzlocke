@@ -10,3 +10,10 @@ regeln = ["Permadeath", "Nur das erste Pokemon pro Route darf gefangen werden", 
           "Routen nur zu Fuß verlassen", "keine Items verwenden", "nächster Arenakampf ohne Gehaltene Items",
           "keine Z-Attacken oder Mega-Entwicklung beim Arenakampf"]
 
+--random Int between MIN & MAX Int
+ranInt = (randomIO :: IO Int) >>= print
+
+ranRangeInt l u = randomRIO (l , u)
+
+f :: Monad m => m a -> a 
+f m = a
