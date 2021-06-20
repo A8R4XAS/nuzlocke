@@ -1,4 +1,4 @@
-import System.Random (randomIO)
+import System.Random (randomIO, randomR, getStdRandom)
 
 
 {-
@@ -34,7 +34,7 @@ readRules =  do
 
 giveRandomElementFromChallenges:: IO String 
 giveRandomElementFromChallenges = do
-    list   <- readDictionary
+    list   <- readChallenges
     ranDom <- getStdRandom (randomR (0,(length list )-1))
     let y = list !! ranDom
     return y
@@ -42,7 +42,7 @@ giveRandomElementFromChallenges = do
 
 giveRandomElementFromPunishment:: IO String 
 giveRandomElementFromPunishment = do
-    list   <- readDictionary
+    list   <- readPunishment
     ranDom <- getStdRandom (randomR (0,(length list )-1))
     let y = list !! ranDom
     return y
